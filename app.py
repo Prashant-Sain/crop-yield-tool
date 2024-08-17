@@ -5,7 +5,7 @@ import sklearn
 print(sklearn.__version__)
 #loading models
 dtr = pickle.load(open('dtr.pkl','rb'))
-preprocessor = pickle.load(open(C:/Users/PRASHANT/OneDrive/Desktop/H2S CYT Project/preprocesser.pkl, 'rb'))
+preprocessor = pickle.load(open("C:/Users/PRASHANT/OneDrive/Desktop/H2S CYT Project/preprocesser".pkl, 'rb'))
 
 
 #flask app
